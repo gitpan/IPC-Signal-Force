@@ -1,0 +1,6 @@
+.cvsignore
+MANIFEST
+META.yml
+Makefile.PL
+README
+lib/IPC/Signal/Force.pm
