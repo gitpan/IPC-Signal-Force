@@ -1,6 +1,6 @@
 NAME
 
-IPC::Signal::Force - function to force default handling of a signal
+IPC::Signal::Force - force default handling of a signal
 
 DESCRIPTION
 

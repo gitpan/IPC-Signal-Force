@@ -1,6 +1,6 @@
 =head1 NAME
 
-IPC::Signal::Force - function to force default handling of a signal
+IPC::Signal::Force - force default handling of a signal
 
 =head1 SYNOPSIS
 
@@ -21,10 +21,10 @@ use warnings;
 use strict;
 
 use Exporter;
-use IPC::Signal qw(sig_num);
+use IPC::Signal 1.00 qw(sig_num);
 use POSIX qw(SIG_SETMASK SIG_UNBLOCK sigprocmask);
 
-our $VERSION = "0.000";
+our $VERSION = "0.001";
 
 our @ISA = qw(Exporter);
 
@@ -72,6 +72,13 @@ sub force_raise($) {
 }
 
 =back
+
+=head1 BUGS
+
+If the signal in question is delivered from somewhere else while
+C<force_raise> is executing, there is a race condition that makes it
+is possible for the default signal handler to be called more than once.
+There appears to be no way to avoid this in POSIX.
 
 =head1 SEE ALSO
 
