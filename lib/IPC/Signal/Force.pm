@@ -20,14 +20,12 @@ package IPC::Signal::Force;
 use warnings;
 use strict;
 
-use Exporter;
 use IPC::Signal 1.00 qw(sig_num);
 use POSIX qw(SIG_SETMASK SIG_UNBLOCK sigprocmask);
 
-our $VERSION = "0.001";
+our $VERSION = "0.002";
 
-our @ISA = qw(Exporter);
-
+use base "Exporter";
 our @EXPORT_OK = qw(force_raise);
 
 =head1 FUNCTIONS
@@ -91,7 +89,9 @@ Andrew Main (Zefram) <zefram@fysh.org>
 
 =head1 COPYRIGHT
 
-Copyright (C) 2004 Andrew Main (Zefram) <zefram@fysh.org>
+Copyright (C) 2004, 2007 Andrew Main (Zefram) <zefram@fysh.org>
+
+=head1 LICENSE
 
 This module is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
