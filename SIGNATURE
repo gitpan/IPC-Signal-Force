@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.55.
+signed via the Module::Signature module, version 0.64.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,21 +14,21 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 b18f5586fd9287a4a52c6f7754f95c279719dcb5 .cvsignore
-SHA1 181a82983ec96ff3d2a29e2609000a26b8864372 Build.PL
-SHA1 8c05b6811ae99e993905b5c8b055f9685bbdfb4f Changes
+SHA1 2cc649f2f6eb7ed4d5da835eae1a8b732e5477cd .cvsignore
+SHA1 aa0b7eed77ba3cbc09ca2255aaf0091b6c5becd5 Build.PL
+SHA1 4ef828b3df0ed72a55219667ccc95803b58dc176 Changes
 SHA1 bf73cc50a55205434cf4adb86e2b1d0bdd740f2d MANIFEST
-SHA1 eaf06ddde750d4d9ad686c79954af3d13f33a6cd META.yml
-SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
-SHA1 606609898449be69c9ba60457fe74b0cbe9d8a5f README
-SHA1 448cfe400745d1f4bc3a958bba32d1db069ddbe6 lib/IPC/Signal/Force.pm
-SHA1 0e141eecf3ca4903ef38d9413b5403a9ddb0392f t/pod_cvg.t
-SHA1 74a957cd8b93f25672ecc6aa578a671d084dd343 t/pod_syn.t
-SHA1 ef8d24f38f64e4b744e56a18d666eaff76d7b4e7 t/use.t
+SHA1 d3c8a573dd2f54dea8c00869b1a03fc48013541e META.yml
+SHA1 caae608231ffe78390c76451ade51a7cfc87a9f9 Makefile.PL
+SHA1 dfe2bc1eed3823633bea61794c5cb0277b061532 README
+SHA1 0ca533f61dc78fc96838dc55e684ecf1799b9f75 lib/IPC/Signal/Force.pm
+SHA1 904d9a4f76525e2303e4b0c168c68230f223c8de t/pod_cvg.t
+SHA1 65c75abdef6f01a5d1588a307f2ddfe2333dc961 t/pod_syn.t
+SHA1 4b70adfd5d2d5400a957311cd46c319626b11581 t/use.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.6 (GNU/Linux)
+Version: GnuPG v1.4.9 (GNU/Linux)
 
-iD8DBQFG/CaTOV9mt2VyAVERAprAAJ9hxtPVBBRX9CDOIuAExLlhxuFWVwCfe+wn
-MXEdq6wTADuUjhj3MKvSx0U=
-=OEDu
+iEYEARECAAYFAkxJ5RkACgkQOV9mt2VyAVGGOwCglPVSd3+YikdfekXFk6dr8rXU
+5qEAn1aoHw7N7GWHIhVFXb8peT4FW9Zy
+=dAn4
 -----END PGP SIGNATURE-----
